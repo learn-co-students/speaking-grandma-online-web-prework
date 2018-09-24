@@ -11,3 +11,12 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+def speak_to_grandma() 
+  if (what_to_say ==
+    
+    
+    def even_or_odd(val)
+   if val % 2 == 0
+      return "#{val} is even"
+   end
