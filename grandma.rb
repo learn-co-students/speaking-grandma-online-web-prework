@@ -12,17 +12,12 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-dog = "cuddly"
- 
-if dog == "hungry"
-  puts "Refilling food bowl."
-elsif dog == "thirsty"
-  puts "Refilling water bowl."
-elsif dog == "playful"
-  puts "Playing tug-of-war."
-elsif dog == "cuddly"
-  puts "Snuggling."
-else
-  puts "Reading newspaper."
+
+def speak_to_grandm(words) 
+  if words == words.UPPERCASE 
+    puts "NO, NOT SINCE 1938!"
+  elsif words == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN"
+  else
+    puts "HUH?! SPEAK UP SONNY!"
 end
- 
