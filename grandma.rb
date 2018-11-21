@@ -8,3 +8,8 @@ def speak_to_grandma(what_I_say)
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
+
+
+phrase = speak_to_grandma("what")
+
+puts phrase
