@@ -1,26 +1,26 @@
 
 
-def speak_to_grandma(phrase = "I LOVE YOU GRANDMA!", greeting = "Hi, Nana, how are you?", greeting_2 = "Hi!", question = "WHAT DID YOU EAT TODAY?", question_2 = "WHAT?")
+def speak_to_grandma(string)
   
-  if phrase == "I LOVE YOU GRANDMA!".upcase
+  if string == "I LOVE YOU GRANDMA!".upcase
   
   return "I LOVE YOU TOO PUMPKIN!"
   
   
-  elsif greeting == "Hi, Nana, how are you?"
+  elsif string == "Hi Nana, how are you?"
   
     return "HUH?! SPEAK UP, SONNY!"
 
-  elsif greeting_2 == "Hi!"
+  elsif string == "Hi!"
   
-    return "HUH?! SPEAk UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   
-elsif question == "WHAT DID YOU EAT TODAY?".downcase 
+  elsif string == "WHAT DID YOU EAT TODAY?"
   
-  return "NO, NOT SINCE 1938!"
+  return "NO, NOT SINCE 1938!".upcase
   
   
- elsif question_2 == "WHAT?"
+  elsif string == "WHAT?".upcase
  
   return "NO, NOT SINCE 1938!"
 
