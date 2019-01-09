@@ -11,3 +11,14 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+speak_to_grandma(phrase)
+phrase = "I love you grandma!".upcase
+If phrase == "I love you grandma"
+  puts "HUH?! SPEAK UP SONNY!"
+  elsif phrase == "I SAID, I LOVE YOU GRANDMA!"
+  puts "NO, NOT SINCE 1938!"
+else phrase =="I LOVE YOU GRANDMA!"
+  puts "I LOVE YOU TOO PUMPKIN!"
+end
+end
