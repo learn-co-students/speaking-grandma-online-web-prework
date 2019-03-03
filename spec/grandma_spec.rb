@@ -11,6 +11,7 @@ describe '#speak_to_grandma' do
     expect(speak_to_grandma('Hi!')).to eq 'HUH?! SPEAK UP, SONNY!'
   end
 
+
   it 'responds with NO, NOT SINCE 1938! when she can hear you' do
     expect(speak_to_grandma('WHAT DID YOU EAT TODAY?')).to eq "NO, NOT SINCE 1938!"
   end
@@ -19,4 +20,14 @@ describe '#speak_to_grandma' do
     expect(speak_to_grandma('WHAT?')).to eq "NO, NOT SINCE 1938!"
   end
 
+end
+
+def speak_to_grandma(phrase)
+  if phrase != phrase.upcase()
+    return "HUH?! SPEAK UP, SONNY!"
+  else
+    return "NO, NOT SINCE 1938!"
+  elsif "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  end
 end
