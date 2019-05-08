@@ -11,3 +11,10 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+def speak_to_grandma
+  if "PUMPKIN! if you say I LOVE YOU GRANDMA"
+  else puts "SONNY! unless you are shouting"
+    elsif puts "SONNY! for a second time"
+    elsif "1938! when she can hear you"
+    elsif "1938! for a second time"
+  end 
