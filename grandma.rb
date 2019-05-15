@@ -1,4 +1,11 @@
-# Write a speak_to_grandma method.
+speak_to_grandma = "Hi Nana, how are you?".downcase 
+ if speak_to_granma = "huh?! speak up, sonny!".upcase
+   puts "unless you shout it".upcase
+ else 
+   puts "no, not since 1938!".upcase
+ else "i love you grandma!".upcase
+   elsif "i love you too pumpkin!".upcase
+  
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
