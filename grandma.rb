@@ -1,5 +1,6 @@
-
+def
 speak_to_grandma = "I LOVE YOU GRANDMA!"
+end
 
 if speak_to_grandma == "hey ma"
 puts "HUH?! SPEAK UP SONNY!"
