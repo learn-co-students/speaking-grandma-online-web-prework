@@ -1,5 +1,16 @@
-# Write a speak_to_grandma method.
+def speak_to_grandma
+  if speak_to_grandma == "HUH?! SPEAK UP, SONNY!"
+  puts "HUH?! SPEAK UP, SONNY!"
+elsif speak_to_grandma == "NO, NOT SINCE 1938!"
+  puts "NO, NOT SINCE 1938!"
+else 
+  puts "I LOVE YOU TOO PUMPKIN!"
+end
 
+
+
+# Write a speak_to_grandma method.
+  
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
