@@ -11,3 +11,26 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+speak_to_grandma = (string)
+
+if speak_to_grandma == "#{string}".upcase
+  puts "NO, NOT SINCE 1938!" 
+elsif speak_to_grandma == "I LOVE YOU GRANDMA!"
+  puts "I LOVE YOU TOO PUMPKIN!"
+else 
+  puts "HUH?! SPEAK UP, SONNY!"
+end
+
+
+#if speak_to_grandma == "I love you grandma!".upcase
+ # puts "I LOVE YOU TOO PUMPKIN!"
+#elsif speak_to_grandma == "Hi Nana, how are you?"
+ # puts "HUH?! SPEAK UP, SONNY!"
+#elsif speak_to_grandma == "Hi!"
+ # puts "HUH?! SPEAK UP, SONNY!"
+#elsif speak_to_grandma == "WHAT DID YOU EAT TODAY?"
+  #puts "NO, NOT SINCE 1938!"
+#else speak_to_grandma == "WHAT?"
+#  puts "NO, NOT SINCE 1938!"
+#end
