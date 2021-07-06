@@ -1,13 +1,9 @@
-# Write a speak_to_grandma method.
+if "I love you Grandma"
+elsif "HUH? SPEAK UP, SONNY!"
 
-# Whatever you say to grandma, she should respond with
-# HUH?! SPEAK UP, SONNY!
-# unless you shout it (type in all capitals).
+elsif "HI!"
 
-# If you shout, she can hear you (or at least she thinks so) 
-# and yells back
+elsif "NOT SINCE 1938!"
 
-# NO, NOT SINCE 1938!
-
-# However if you say 'I LOVE YOU GRANDMA!', she should respond with
-# 'I LOVE YOU TOO PUMPKIN!'
+elsif "I LOVE YOU GRANDMA!"
+else "I LOVE YOU TOO HONEY!"
