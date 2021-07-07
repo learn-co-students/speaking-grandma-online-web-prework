@@ -1,10 +1,17 @@
-# Write a speak_to_grandma method.
-
+# Write a speak_to_grandma method
+grandma = "I LOVE YOU GRANDMA!"
+if grandma == "hello".downcase
+  puts "HUH?! SPEAK UP, SONNY!"
+elsif grandma == "I LOVE YOU GRANDMA!"
+  puts "I LOVE YOU TOO PUMPKIN!"
+else "hello".upcase"
+  puts "NO, NOT SINCE 1938"
+end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
-# If you shout, she can hear you (or at least she thinks so) 
+# If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
 # NO, NOT SINCE 1938!
