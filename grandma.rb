@@ -1,4 +1,4 @@
-# Write a speak_to_grandma method.
+expect(speak_to_grandma ('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!' YOU GRANDMA!
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
